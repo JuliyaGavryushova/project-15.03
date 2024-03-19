@@ -5,7 +5,11 @@
 a {
     text-decoration: none;
 }
-.menu {
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+.navigation__link {
     color: cornflowerblue;
     font-size: 16px;
     line-height: 20px;
